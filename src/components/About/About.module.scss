@@ -1,0 +1,152 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 180px 0px 100px;
+
+  @media (max-width: 1250px) {
+    padding-top: 80px;
+  }
+
+  .wrapper {
+    margin: 0px 155px 0px 155px;
+    max-width: 1160px;
+    width: 100%;
+
+    @media (max-width: 1250px) {
+      max-width: 600px;
+    }
+  }
+
+  .title {
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    margin: 0px 0px 10px 30px;
+  }
+
+  .subtitle {
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    max-width: 390px;
+    text-transform: capitalize;
+    margin: 0px 0px 60px 30px;
+
+    @media (max-width: 600px) {
+      max-width: 300px;
+    }
+  }
+
+  .row {
+    display: flex;
+    background-color: #f9f9f9;
+
+    @media (max-width: 1250px) {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      max-width: 500px;
+      min-width: 289px;
+    }
+
+    @media (max-width: 600px) {
+      max-width: 289px;
+    }
+  }
+
+  .cont_card {
+    width: 290px;
+    padding: 34px 29px 34px 30px;
+    position: relative;
+  }
+
+  .heading {
+    display: flex;
+    margin-bottom: 6px;
+  }
+
+  .cont_title {
+    font-family: "Ubuntu";
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    font-weight: 700;
+    position: relative;
+  }
+
+  .title_color {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    color: red;
+    padding-top: 4px;
+  }
+
+  .cont_subtitle {
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: capitalize;
+    max-width: 224px;
+  }
+
+  .first_line {
+    height: 40px;
+    width: 3px;
+    background-color: #000000;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+
+    @media (max-width: 1250px) {
+      height: 3px;
+      width: 80px;
+      left: 20px;
+      top: 149px;
+    }
+  }
+
+  .second_line {
+    height: 70px;
+    width: 1px;
+    background-color: #c4c4c4;
+    position: absolute;
+    right: 1px;
+    top: 60px;
+
+    @media (max-width: 1250px) {
+      height: 1px;
+      width: 164px;
+      left: 100px;
+      top: 150px;
+    }
+  }
+
+  .color_red {
+    color: red;
+  }
+
+  .size_red {
+    color: red;
+    font-size: 26px;
+  }
+}
+
+.subtitle_style {
+  text-transform: none;
+  max-width: 216px;
+}
+
+.subtitle_north_south {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 17px;
+  max-width: 392px;
+  text-transform: capitalize;
+  margin-left: 30px;
+}

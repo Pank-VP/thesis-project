@@ -1,0 +1,229 @@
+.services {
+  .wrapper {
+    margin: 0px auto;
+    max-width: 1160px;
+    width: 100%;
+
+    @media (max-width: 1250px) {
+      max-width: 600px;
+    }
+  }
+
+  .title {
+    margin: 80px 0px 20px 98px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+
+    @media (max-width: 600px) {
+      margin: 0 0 20px 30px;
+    }
+
+    &_color {
+      color: red;
+    }
+  }
+
+  .cont {
+    position: relative;
+
+    &_line {
+      height: 5px;
+      width: 60px;
+      background-color: red;
+      margin-bottom: 5px;
+    }
+
+    &_title {
+      font-family: "Ubuntu";
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+      margin-bottom: 5px;
+    }
+
+    &_subtitle {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+      max-width: 336px;
+    }
+  }
+
+  .cont_two {
+    display: flex;
+    justify-content: end;
+    position: relative;
+
+    @media (max-width: 1250px) {
+      justify-content: start;
+    }
+  }
+
+  .heading {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #d9d9d9;
+    margin-bottom: 20px;
+
+    &_number {
+      font-family: "Ubuntu";
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 23px;
+      position: absolute;
+      top: 68px;
+      left: 118px;
+    }
+  }
+
+  .line_one {
+    position: absolute;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 50px;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .line_two {
+    position: absolute;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    height: 50px;
+    width: 50px;
+    right: 0px;
+    top: 0px;
+  }
+
+  .line_three {
+    position: absolute;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    height: 50px;
+    width: 50px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .line_four {
+    position: absolute;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    height: 50px;
+    width: 50px;
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+.img_first {
+  width: 624px;
+  height: 356px;
+  margin-bottom: 240px;
+
+  @media (max-width: 1250px) {
+    margin-bottom: 380px;
+  }
+
+  @media (max-width: 600px) {
+    width: 100%;
+    height: 223px;
+  }
+}
+
+.img_second {
+  width: 624px;
+  height: 356px;
+  margin-bottom: 100px;
+
+  @media (max-width: 1250px) {
+    margin-bottom: 380px;
+  }
+
+  @media (max-width: 600px) {
+    width: 100%;
+    height: 223px;
+  }
+}
+
+.img_thirt {
+  width: 624px;
+  height: 356px;
+  margin-bottom: 90px;
+
+  @media (max-width: 1250px) {
+    margin-bottom: 380px;
+  }
+
+  @media (max-width: 600px) {
+    width: 100%;
+    height: 223px;
+    margin-bottom: 380px;
+  }
+}
+
+.location_first {
+  position: absolute;
+  z-index: 10;
+  top: 170px;
+  left: 550px;
+
+  @media (max-width: 1250px) {
+    left: 0px;
+    top: 356px;
+    width: 624px;
+  }
+
+  @media (max-width: 600px) {
+    top: 223px;
+    width: 100%;
+  }
+}
+
+.location {
+  background-color: #f9f9f9;
+  position: relative;
+  padding: 46px 71px 45px 71px;
+}
+
+.location_second {
+  position: absolute;
+  top: -44px;
+  right: 602px;
+
+  @media (max-width: 1250px) {
+    left: 0px;
+    top: 356px;
+    width: 624px;
+  }
+
+  @media (max-width: 600px) {
+    top: 223px;
+    width: 100%;
+  }
+}
+
+.location_third {
+  position: absolute;
+  top: 39px;
+  left: 580px;
+
+  @media (max-width: 1250px) {
+    left: 0px;
+    top: 356px;
+    width: 624px;
+  }
+
+  @media (max-width: 600px) {
+    top: 223px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+.navigation {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 1250px) {
+    flex-direction: column;
+  }
+}
+
+.item {
+  font-weight: 400;
+  color: white;
+  font-size: 15px;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    color: white;
+  }
+
+  &:not(:last-child) {
+    margin-right: 50px;
+
+    @media (max-width: 1250px) {
+      margin: 0;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.item_mobile {
+  font-weight: 400;
+  color: black;
+  font-size: 15px;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    color: black;
+  }
+}

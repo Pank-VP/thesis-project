@@ -1,0 +1,150 @@
+.heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  text-transform: capitalize;
+  color: #000000;
+  max-width: 500px;
+  margin-bottom: 60px;
+}
+
+.color {
+  color: red;
+}
+
+.projects {
+  padding: 90px 0px 180px;
+
+  @media (max-width: 900px) {
+    padding-bottom: 90px;
+  }
+
+  .wrapper {
+    margin: 0px auto;
+    max-width: 1160px;
+    width: 100%;
+
+    @media (max-width: 900px) {
+      max-width: 600px;
+    }
+  }
+
+  .heading {
+    margin: 0px 0px 20px 30px;
+  }
+
+  .container {
+    display: flex;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+  }
+}
+
+.card {
+  position: relative;
+  max-width: 375px;
+  width: 100%;
+  height: 542px;
+  background-image: url("../../images/TheProjects/Card1.jpg");
+  margin-right: 17px;
+
+  @media (max-width: 900px) {
+    margin: 0 auto 20px;
+  }
+}
+
+.card_two {
+  position: relative;
+  max-width: 375px;
+  width: 100%;
+  height: 542px;
+  margin-right: 17px;
+  background-image: url("../../images/TheProjects/Card2.jpg");
+
+  @media (max-width: 900px) {
+    margin: 0 auto 20px;
+  }
+}
+
+.card_three {
+  position: relative;
+  max-width: 375px;
+  width: 100%;
+  height: 542px;
+  background-image: url("../../images/TheProjects/Card3.jpg");
+
+  @media (max-width: 900px) {
+    margin: 0 auto;
+  }
+}
+
+.title {
+  &_one {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #ffffff;
+    max-width: 330px;
+    text-transform: capitalize;
+    margin: 155px 48px 10px 27px;
+  }
+  &_two {
+    margin: 65px 21px 10px 23px;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #ffffff;
+    max-width: 330px;
+    text-transform: capitalize;
+  }
+  &_three {
+    margin: 178px 28px 10px 16px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #ffffff;
+    max-width: 330px;
+    text-transform: capitalize;
+  }
+}
+
+.subtitle {
+  &_one {
+    margin: 0px 78px 0px 27px;
+    max-width: 270px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+
+  &_two {
+    margin-left: 23px;
+    max-width: 270px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+
+  &_three {
+    margin-left: 16px;
+    max-width: 270px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+}
+
+.pointer {
+  position: absolute;
+  display: flex;
+  bottom: 0px;
+  right: 0px;
+  cursor: pointer;
+}
